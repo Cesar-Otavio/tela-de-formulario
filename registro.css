@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(43, 42, 42);
+}
+
+.caixa {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: -10px;
+    color: rgb(30, 194, 137);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.lista-ul {
+    position: relative;
+    left: 35%;
+    top: 20px;
+}
+
+.lista-li {
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    opacity: 0.4;
+    width: 40px;
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.paragrafo-p {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+main {
+    width: 230px;
+    margin: auto;
+}
+
+.caixa-form {
+    margin: 30px 0 0 20px;
+}
+
+.input-padrao {
+    margin: 10px 0;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form label {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+fieldset legend {
+    font-size: 18px;
+    font-family: 'Pathway Extreme', sans-serif;
+    margin: 0 0 5px 20px;
+}
+
+fieldset label {
+    margin: 0 0 0 19px;
+    padding: 1px;
+    font-size: 15px;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.genero {
+    margin: 5px 0;
+}
+
+.enviar {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 30px 0 0 30%;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
+    background-color: rgb(30, 194, 137);
+    color: #ffffff;
+    border-color: rgb(30, 194, 137);
+}
+
+.enviar:active {
+    transform: scale(1.0);
+    background-color: rgb(27, 167, 118);
+    color: #000000;
+}
